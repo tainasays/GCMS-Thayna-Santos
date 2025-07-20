@@ -22,4 +22,11 @@ public class HomeController {
 	public @ResponseBody String greetingUser() {
 		return "Hello, User!";
 	}
+	
+	@RequestMapping("/hotfix")
+	public @ResponseBody String hotfix() {
+		return "Hotfix";
+	}
+	
+	
 }

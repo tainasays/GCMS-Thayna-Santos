@@ -38,7 +38,7 @@ class WebAppApplicationTests {
 	@Test
 	public void shouldReturnDefaultHotfix() throws Exception {
 		this.mockMvc.perform(get("/hotfix")).andDo(print()).andExpect(status().isOk())
-				.andExpect(content().string(containsString("Hotfix")));
+				.andExpect(content().string(containsString("Hotfixxx")));
 	}
 	
 }

@@ -17,6 +17,9 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    container:
+      image: docker://tai1234/gcms:latest
+
     permissions:
       contents: read
 
